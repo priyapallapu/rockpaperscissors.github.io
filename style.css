@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    font-family: 'Acme', sans-serif;
+}
+
+.mainheading h1 {
+    padding: 20px 20px 0px 20px;
+}
+
 .textdisplay {
     font-size: 16px;
     padding: 20px 0;
 }
 
 .main__block {
-    width: 75%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -40,8 +50,8 @@
 
 }
 
-#output {
-    width: 75%;
+.maindiv {
+
     display: flex;
     text-align: center;
     margin: 0 auto;
@@ -53,6 +63,32 @@
     margin: 0 auto;
 }
 
+#output1 {
+    padding: 10px 0;
+    text-align: center;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inner_rps {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
 
 /* .rps {
     width: 75%;
@@ -60,3 +96,10 @@
     justify-items: center;
     align-items: center;
 } */
+
+@media screen and (max-width:800px) {
+    .mainheading h1 {
+        padding: 20px 0px 0px 0px;
+        font-size: 22px;
+    }
+}
