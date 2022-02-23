@@ -1,30 +1,4 @@
 
-function myAgeCalculator() {
-    let age = prompt("Enter your year of born");
-    ageInDays = (2022 - age) * 365;
-    // document.getElementById("results").innerHTML = ageInDays
-    contentDisplay = document.createTextNode('Your age in days is ' + ageInDays);
-    results.appendChild(contentDisplay);
-    results.setAttribute('class', 'textdisplay')
-
-}
-
-function restValue() {
-    document.getElementById("results").remove();
-}
-
-function catGenerator() {
-    let image = document.createElement('img');
-    let div = document.getElementById('catgen');
-    image.src = "https://papers.co/wallpaper/papers.co-mi36-cute-cat-look-dark-bw-animal-love-nature-8-wallpaper.jpg?download=true";
-    div.appendChild(image);
-
-}
-
-function catGeneratorDel() {
-    document.getElementById('catgen').remove();
-}
-
 //  Game
 
 function rps(yourChoice) {
