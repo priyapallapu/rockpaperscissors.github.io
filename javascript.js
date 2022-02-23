@@ -70,7 +70,7 @@ function finalResult([yourScore, computerChoice]) {
     else if (yourScore === 0.5) {
         return {
             'message': 'Its a Tie',
-            'color': 'yellow'
+            'color': 'black'
         }
     }
     else {
