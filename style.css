@@ -1,0 +1,62 @@
+.textdisplay {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.main__block {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inner_block {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button_cat {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.inner_block img {
+    width: 24%;
+    margin: 20px;
+    box-shadow: 10px 10px 10px 10px #00000078;
+
+}
+
+#output {
+    width: 75%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rps {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* .rps {
+    width: 75%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+} */
