@@ -1,10 +1,10 @@
 
+
 //  Game
 
 function rps(yourChoice) {
     var botChoice, humanchoice;
     humanchoice = yourChoice.id;
-
     botChoice = Botnum(rpsBotChoice());
     console.log("Computer Picked: " + botChoice + "," + " You Picked: " + humanchoice)
     var resultsMain = gameFunction(humanchoice, botChoice);
@@ -61,21 +61,28 @@ function FinalOutput(humanchoice, botChoice, message) {
         'paper': document.getElementById('paper').src,
         'scissors': document.getElementById('scissors').src
     };
-
     document.getElementById('paper').remove();
     document.getElementById('rock').remove();
     document.getElementById('scissors').remove();
-
     var yourDiv = document.createElement('div');
     var messageDiv = document.createElement('div');
     var botDiv = document.createElement('div');
     yourDiv.innerHTML = "<img src='" + imageData[humanchoice] + "' width=200>"
     document.getElementById('output').appendChild(yourDiv);
     messageDiv.innerHTML = "<h1 style='color:" + message['color'] + "; align-items:center '>" + message['message'] + "</h1>"
-    document.getElementById('output').appendChild(messageDiv);
+    document.getElementById('output1').appendChild(messageDiv);
     botDiv.innerHTML = "<img src='" + imageData[botChoice] + "'  width=200>"
-    document.getElementById('output').appendChild(botDiv);
+    document.getElementById('output2').appendChild(botDiv);
+
+    var returnBack, buttonText;
+    returnBack = document.createElement("BUTTON")
+    returnBack.innerHTML = '<h5 style="text-align:center; color: ' + message["color"] + ';padding:10px"> Try Again </h5>';
+    document.getElementById('button_back').appendChild(returnBack)
+
 
 }
 
+function reloadPage() {
+    reload = location.reload();
+}
 
