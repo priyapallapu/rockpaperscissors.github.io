@@ -87,15 +87,27 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 10px 0;
+
 }
 
-/* .rps {
-    width: 75%;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-} */
+.maindiv img {
+    margin: 20px;
+}
+
+#button_back button {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 0px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 2px 2px #777689;
+}
+
+#button_back h5 {
+    margin: 0;
+}
+
+
 
 @media screen and (max-width:800px) {
     .mainheading h1 {
