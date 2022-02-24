@@ -91,7 +91,7 @@
 }
 
 .maindiv img {
-    margin: 20px;
+    margin: 10px;
 }
 
 #button_back button {
@@ -99,7 +99,8 @@
     text-align: center;
     border: 0px;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 0px 15px;
+    margin-top: 20px;
     box-shadow: 2px 2px 2px 2px #777689;
 }
 
@@ -114,4 +115,18 @@
         padding: 20px 0px 0px 0px;
         font-size: 22px;
     }
+
+    .maindiv img {
+        width: 150px;
+    }
+
+    .inner_rps img {
+        width: 150px;
+    }
+
+    .inner_rps {
+
+        padding: 1px 0;
+    }
+
 }
